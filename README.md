@@ -102,6 +102,11 @@ cd asus-touchpad-numpad-driver
 sudo ./install.sh
 ```
 
+Create a new "Startup Application" pointing to:
+```
+/usr/share/asus_touchpad_numpad-driver/asus_touchpad.py m433ia 6
+```
+
 To turn on/off numpad, tap top right corner touchpad area.
 To adjust numpad brightness, tap top left corner touchpad area.
 
